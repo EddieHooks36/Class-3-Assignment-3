@@ -1,0 +1,57 @@
+body{
+    background-color: brown;
+    color: white;
+    font-family: helvetica;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: -10px 10px black;
+    text-transform: uppercase;
+}
+p{
+    text-align: center;
+    line-height: 1.5;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1.5;
+    background-color: black;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+.flex-container{
+    display: flex;
+    height: 100%;
+}
+header{
+    width: 40%;
+    height: 100%;
+}
+main{
+    width: 60%;
+    height: 100%;
+}
+/*navigation*/
+nav.menu{
+
+}
+.link{
+    display: block;
+    text-decoration: none;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.link:hover{
+    color: orange;
+}
